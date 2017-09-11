@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="js/jquery.mobile-1.4.5.css">
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/jquery.mobile-1.4.5.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "//hm.baidu.com/hm.js?73c27e26f610eb3c9f3feb0c75b03925";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+</head>
+<body>
+
+<div data-role="page" id="pageone">
+    <div data-role="header">
+        <h1>BuLine</h1>
+        <div data-role="navbar">
+            <ul>
+                <li><a href="home.html" data-icon="home">Home</a></li>
+                <li><a href="friend.html" data-icon="user">Friends</a></li>
+                <li><a href="profile.html" data-icon="edit">Profile</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div data-role="main" class="ui-content">
+        <div class="ui-grid-b ui-responsive">
+
+            <form method="post" action="demoform.asp">
+                <label for="status">Your thoughts?</label>
+                <textarea type="text" name="status" id="status"></textarea>
+            </form>
+            <a href="home.html" class="ui-btn ui-btn-b ui-corner-all">Share</a>
+            <div class="ui-block-a">
+                <div class="card">
+                <div class="card-image">
+                    <img class="image-home" alt="home" src="assets/Screen%20Shot%202017-09-11%20at%2011.19.54.png" />
+                </div>
+                <p>By : $Nama terus enek waktune</p>
+            </div>
+            </div>
+
+            <div class="ui-block-b">
+                <div class="card">
+                    <div class="card-image">
+                        <img class="image-home" alt="home" src="assets/Screen%20Shot%202017-09-11%20at%2011.19.54.png" />
+                    </div>
+                    <p>By : $Nama</p>
+                </div>
+            </div>
+            <div class="ui-block-c">
+                <div class="card">
+                    <div class="card-image">
+                        <img class="image-home" alt="home" src="assets/Screen%20Shot%202017-09-11%20at%2011.19.54.png" />
+                    </div>
+                    <p>By : $Nama</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</div>
+
+</body>
